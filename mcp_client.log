@@ -1,0 +1,194 @@
+2025-08-13 18:07:50,401 - __main__ - INFO - Starting HTTP servers...
+2025-08-13 18:07:50,401 - servers.http.server_launcher - INFO - Starting temperature server on localhost:8000
+2025-08-13 18:07:50,927 - servers.http.server_launcher - INFO - Server ready at localhost:8000
+2025-08-13 18:07:50,927 - __main__ - INFO - Temperature server started successfully
+2025-08-13 18:07:50,927 - __main__ - INFO - Initializing MCP client...
+2025-08-13 18:07:50,927 - src.agent.agent_wrapper - INFO - AgentWrapper initialized
+2025-08-13 18:07:50,927 - src.agent.agent_wrapper - INFO - Tool filter active: ['celsius_to_fahrenheit', 'fahrenheit_to_celsius', 'celsius_to_kelvin', 'kelvin_to_celsius', 'fahrenheit_to_kelvin', 'kelvin_to_fahrenheit', 'run_command']
+2025-08-13 18:07:50,927 - src.client.mcp_client - INFO - MCPClient initialized for user 'cli_user_001', session 'cli_session_001'
+2025-08-13 18:07:50,927 - src.client.mcp_client - INFO - Debug mode enabled - detailed MCP interactions will be shown
+2025-08-13 18:07:50,927 - src.client.mcp_client - INFO - Initializing MCP client...
+2025-08-13 18:07:50,927 - src.agent.agent_wrapper - INFO - Building agent with MCP toolsets...
+2025-08-13 18:07:50,928 - src.utils.config_loader - INFO - Configuration loaded from: config/servers.json
+2025-08-13 18:07:50,928 - src.agent.agent_wrapper - INFO - Loading toolsets from 2 configured servers...
+2025-08-13 18:07:50,987 - mcp.client.streamable_http - INFO - Negotiated protocol version: 2025-06-18
+2025-08-13 18:07:50,995 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-13 18:07:50,995 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-13 18:07:50,996 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-13 18:07:50,996 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-13 18:07:50,996 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-13 18:07:50,996 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-13 18:07:50,997 - src.agent.agent_wrapper - INFO - Connected to temperature_converter: 6 tools loaded
+2025-08-13 18:07:51,260 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-13 18:07:51,260 - src.agent.agent_wrapper - INFO - Connected to terminal: 1 tools loaded
+2025-08-13 18:07:51,260 - src.agent.agent_wrapper - INFO - Successfully loaded 2 toolsets
+2025-08-13 18:07:51,260 - src.agent.agent_wrapper - INFO - Agent built successfully with 2 toolsets
+2025-08-13 18:07:51,260 - src.client.mcp_client - INFO - MCP client initialized successfully
+2025-08-13 18:07:51,261 - src.client.mcp_client - INFO - Server status: 2/2 servers connected
+2025-08-13 18:07:51,261 - __main__ - INFO - MCP client initialized
+2025-08-13 18:08:04,883 - src.client.mcp_client - INFO - Shutting down MCP client...
+2025-08-13 18:08:04,884 - src.agent.agent_wrapper - INFO - Shutting down agent and closing toolset connections...
+2025-08-14 10:10:51,217 - __main__ - INFO - Starting HTTP servers...
+2025-08-14 10:10:51,217 - servers.http.server_launcher - INFO - Starting temperature server on localhost:8000
+2025-08-14 10:10:51,741 - servers.http.server_launcher - INFO - Server ready at localhost:8000
+2025-08-14 10:10:51,742 - __main__ - INFO - Temperature server started successfully
+2025-08-14 10:10:51,742 - __main__ - INFO - Initializing MCP client...
+2025-08-14 10:10:51,742 - src.agent.agent_wrapper - INFO - AgentWrapper initialized
+2025-08-14 10:10:51,742 - src.agent.agent_wrapper - INFO - Tool filter active: ['celsius_to_fahrenheit', 'fahrenheit_to_celsius', 'celsius_to_kelvin', 'kelvin_to_celsius', 'fahrenheit_to_kelvin', 'kelvin_to_fahrenheit', 'run_command']
+2025-08-14 10:10:51,742 - src.client.mcp_client - INFO - MCPClient initialized for user 'cli_user_001', session 'cli_session_001'
+2025-08-14 10:10:51,742 - src.client.mcp_client - INFO - Debug mode enabled - detailed MCP interactions will be shown
+2025-08-14 10:10:51,742 - src.client.mcp_client - INFO - Initializing MCP client...
+2025-08-14 10:10:51,742 - src.agent.agent_wrapper - INFO - Building agent with MCP toolsets...
+2025-08-14 10:10:51,743 - src.utils.config_loader - INFO - Configuration loaded from: config/servers.json
+2025-08-14 10:10:51,743 - src.agent.agent_wrapper - INFO - Loading toolsets from 2 configured servers...
+2025-08-14 10:10:51,784 - mcp.client.streamable_http - INFO - Negotiated protocol version: 2025-06-18
+2025-08-14 10:10:51,791 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:10:51,791 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:10:51,792 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:10:51,792 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:10:51,792 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:10:51,792 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:10:51,793 - src.agent.agent_wrapper - INFO - Connected to temperature_converter: 6 tools loaded
+2025-08-14 10:10:52,049 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:10:52,049 - src.agent.agent_wrapper - INFO - Connected to terminal: 1 tools loaded
+2025-08-14 10:10:52,049 - src.agent.agent_wrapper - INFO - Successfully loaded 2 toolsets
+2025-08-14 10:10:52,049 - src.agent.agent_wrapper - INFO - Agent built successfully with 2 toolsets
+2025-08-14 10:10:52,049 - src.client.mcp_client - INFO - MCP client initialized successfully
+2025-08-14 10:10:52,049 - src.client.mcp_client - INFO - Server status: 2/2 servers connected
+2025-08-14 10:10:52,049 - __main__ - INFO - MCP client initialized
+2025-08-14 10:26:43,898 - src.client.mcp_client - INFO - Sending message: Convert 100°F to Celsius and Kelvin, then save results to a file temp_conv.txt
+2025-08-14 10:26:43,923 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:43,924 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:43,924 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:43,925 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:43,925 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:43,926 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:43,933 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:43,968 - google_adk.google.adk.models.google_llm - INFO - Sending out request, model: gemini-2.0-flash-exp, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2025-08-14 10:26:43,968 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-14 10:26:45,730 - google_adk.google.adk.models.google_llm - INFO - Response received from the model.
+2025-08-14 10:26:45,730 - google_genai.types - WARNING - Warning: there are non-text parts in the response: ['function_call', 'function_call'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+2025-08-14 10:26:45,785 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:45,785 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:45,785 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:45,785 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:45,786 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:45,786 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:45,788 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:45,814 - google_adk.google.adk.models.google_llm - INFO - Sending out request, model: gemini-2.0-flash-exp, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2025-08-14 10:26:45,814 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-14 10:26:48,537 - google_adk.google.adk.models.google_llm - INFO - Response received from the model.
+2025-08-14 10:26:48,537 - google_genai.types - WARNING - Warning: there are non-text parts in the response: ['function_call'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+2025-08-14 10:26:48,583 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:48,584 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:48,585 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:48,586 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:48,587 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:48,588 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:48,592 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 10:26:48,629 - google_adk.google.adk.models.google_llm - INFO - Sending out request, model: gemini-2.0-flash-exp, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2025-08-14 10:26:48,629 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-14 10:26:49,556 - google_adk.google.adk.models.google_llm - INFO - Response received from the model.
+2025-08-14 10:58:01,672 - src.client.mcp_client - INFO - Shutting down MCP client...
+2025-08-14 10:58:01,673 - src.agent.agent_wrapper - INFO - Shutting down agent and closing toolset connections...
+2025-08-14 18:08:57,214 - __main__ - INFO - Starting HTTP servers...
+2025-08-14 18:08:57,214 - servers.http.server_launcher - INFO - Starting temperature server on localhost:8000
+2025-08-14 18:08:57,537 - servers.http.server_launcher - INFO - Server ready at localhost:8000
+2025-08-14 18:08:57,538 - __main__ - INFO - Temperature server started successfully
+2025-08-14 18:08:57,538 - __main__ - INFO - Initializing MCP client...
+2025-08-14 18:08:57,538 - src.agent.agent_wrapper - INFO - AgentWrapper initialized
+2025-08-14 18:08:57,538 - src.agent.agent_wrapper - INFO - Tool filter active: ['celsius_to_fahrenheit', 'fahrenheit_to_celsius', 'celsius_to_kelvin', 'kelvin_to_celsius', 'fahrenheit_to_kelvin', 'kelvin_to_fahrenheit', 'run_command']
+2025-08-14 18:08:57,538 - src.client.mcp_client - INFO - MCPClient initialized for user 'cli_user_001', session 'cli_session_001'
+2025-08-14 18:08:57,538 - src.client.mcp_client - INFO - Debug mode enabled - detailed MCP interactions will be shown
+2025-08-14 18:08:57,538 - src.client.mcp_client - INFO - Initializing MCP client...
+2025-08-14 18:08:57,538 - src.agent.agent_wrapper - INFO - Building agent with MCP toolsets...
+2025-08-14 18:08:57,538 - src.utils.config_loader - INFO - Configuration loaded from: config/servers.json
+2025-08-14 18:08:57,538 - src.agent.agent_wrapper - INFO - Loading toolsets from 2 configured servers...
+2025-08-14 18:08:57,569 - mcp.client.streamable_http - INFO - Negotiated protocol version: 2025-06-18
+2025-08-14 18:08:57,577 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:08:57,577 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:08:57,577 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:08:57,578 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:08:57,578 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:08:57,578 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:08:57,579 - src.agent.agent_wrapper - INFO - Connected to temperature_converter: 6 tools loaded
+2025-08-14 18:08:57,930 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:08:57,931 - src.agent.agent_wrapper - INFO - Connected to terminal: 1 tools loaded
+2025-08-14 18:08:57,931 - src.agent.agent_wrapper - INFO - Successfully loaded 2 toolsets
+2025-08-14 18:08:57,931 - src.agent.agent_wrapper - INFO - Agent built successfully with 2 toolsets
+2025-08-14 18:08:57,931 - src.client.mcp_client - INFO - MCP client initialized successfully
+2025-08-14 18:08:57,931 - src.client.mcp_client - INFO - Server status: 2/2 servers connected
+2025-08-14 18:08:57,931 - __main__ - INFO - MCP client initialized
+2025-08-14 18:19:22,501 - src.client.mcp_client - INFO - Shutting down MCP client...
+2025-08-14 18:19:22,502 - src.agent.agent_wrapper - INFO - Shutting down agent and closing toolset connections...
+2025-08-14 18:19:25,351 - __main__ - INFO - Starting HTTP servers...
+2025-08-14 18:19:25,351 - servers.http.server_launcher - INFO - Starting temperature server on localhost:8000
+2025-08-14 18:19:25,365 - servers.http.server_launcher - INFO - Server ready at localhost:8000
+2025-08-14 18:19:25,365 - __main__ - INFO - Temperature server started successfully
+2025-08-14 18:19:25,365 - __main__ - INFO - Initializing MCP client...
+2025-08-14 18:19:25,365 - src.agent.agent_wrapper - INFO - AgentWrapper initialized
+2025-08-14 18:19:25,365 - src.agent.agent_wrapper - INFO - Tool filter active: ['celsius_to_fahrenheit', 'fahrenheit_to_celsius', 'celsius_to_kelvin', 'kelvin_to_celsius', 'fahrenheit_to_kelvin', 'kelvin_to_fahrenheit', 'run_command']
+2025-08-14 18:19:25,365 - src.client.mcp_client - INFO - MCPClient initialized for user 'cli_user_001', session 'cli_session_001'
+2025-08-14 18:19:25,365 - src.client.mcp_client - INFO - Debug mode enabled - detailed MCP interactions will be shown
+2025-08-14 18:19:25,365 - src.client.mcp_client - INFO - Initializing MCP client...
+2025-08-14 18:19:25,365 - src.agent.agent_wrapper - INFO - Building agent with MCP toolsets...
+2025-08-14 18:19:25,365 - src.utils.config_loader - INFO - Configuration loaded from: config/servers.json
+2025-08-14 18:19:25,365 - src.agent.agent_wrapper - INFO - Loading toolsets from 2 configured servers...
+2025-08-14 18:19:25,399 - mcp.client.streamable_http - INFO - Negotiated protocol version: 2025-06-18
+2025-08-14 18:19:25,406 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:19:25,407 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:19:25,407 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:19:25,408 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:19:25,408 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:19:25,408 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:19:25,409 - src.agent.agent_wrapper - INFO - Connected to temperature_converter: 6 tools loaded
+2025-08-14 18:19:25,613 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:19:25,614 - src.agent.agent_wrapper - INFO - Connected to terminal: 1 tools loaded
+2025-08-14 18:19:25,614 - src.agent.agent_wrapper - INFO - Successfully loaded 2 toolsets
+2025-08-14 18:19:25,614 - src.agent.agent_wrapper - INFO - Agent built successfully with 2 toolsets
+2025-08-14 18:19:25,614 - src.client.mcp_client - INFO - MCP client initialized successfully
+2025-08-14 18:19:25,614 - src.client.mcp_client - INFO - Server status: 2/2 servers connected
+2025-08-14 18:19:25,614 - __main__ - INFO - MCP client initialized
+2025-08-14 18:22:13,060 - src.client.mcp_client - INFO - Sending message: [A
+2025-08-14 18:22:13,076 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:22:13,077 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:22:13,078 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:22:13,078 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:22:13,079 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:22:13,080 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:22:13,085 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:22:13,121 - google_adk.google.adk.models.google_llm - INFO - Sending out request, model: gemini-2.0-flash-exp, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2025-08-14 18:22:13,122 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-08-14 18:22:14,203 - google_adk.google.adk.models.google_llm - INFO - Response received from the model.
+2025-08-14 18:22:15,088 - src.client.mcp_client - INFO - Shutting down MCP client...
+2025-08-14 18:22:15,088 - src.agent.agent_wrapper - INFO - Shutting down agent and closing toolset connections...
+2025-08-14 18:22:17,730 - __main__ - INFO - Starting HTTP servers...
+2025-08-14 18:22:17,730 - servers.http.server_launcher - INFO - Starting temperature server on localhost:8000
+2025-08-14 18:22:17,743 - servers.http.server_launcher - INFO - Server ready at localhost:8000
+2025-08-14 18:22:17,743 - __main__ - INFO - Temperature server started successfully
+2025-08-14 18:22:17,743 - __main__ - INFO - Initializing MCP client...
+2025-08-14 18:22:17,743 - src.agent.agent_wrapper - INFO - AgentWrapper initialized
+2025-08-14 18:22:17,743 - src.agent.agent_wrapper - INFO - Tool filter active: ['celsius_to_fahrenheit', 'fahrenheit_to_celsius', 'celsius_to_kelvin', 'kelvin_to_celsius', 'fahrenheit_to_kelvin', 'kelvin_to_fahrenheit', 'run_command']
+2025-08-14 18:22:17,743 - src.client.mcp_client - INFO - MCPClient initialized for user 'cli_user_001', session 'cli_session_001'
+2025-08-14 18:22:17,743 - src.client.mcp_client - INFO - Debug mode enabled - detailed MCP interactions will be shown
+2025-08-14 18:22:17,743 - src.client.mcp_client - INFO - Initializing MCP client...
+2025-08-14 18:22:17,743 - src.agent.agent_wrapper - INFO - Building agent with MCP toolsets...
+2025-08-14 18:22:17,743 - src.utils.config_loader - INFO - Configuration loaded from: config/servers.json
+2025-08-14 18:22:17,743 - src.agent.agent_wrapper - INFO - Loading toolsets from 2 configured servers...
+2025-08-14 18:22:17,774 - mcp.client.streamable_http - INFO - Negotiated protocol version: 2025-06-18
+2025-08-14 18:22:17,781 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:22:17,781 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:22:17,781 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:22:17,782 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:22:17,782 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:22:17,782 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:22:17,783 - src.agent.agent_wrapper - INFO - Connected to temperature_converter: 6 tools loaded
+2025-08-14 18:22:17,992 - google_adk.google.adk.tools.base_authenticated_tool - WARNING - auth_config or auth_config.auth_scheme is missing. Will skip authentication.Using FunctionTool instead if authentication is not required.
+2025-08-14 18:22:17,992 - src.agent.agent_wrapper - INFO - Connected to terminal: 1 tools loaded
+2025-08-14 18:22:17,992 - src.agent.agent_wrapper - INFO - Successfully loaded 2 toolsets
+2025-08-14 18:22:17,992 - src.agent.agent_wrapper - INFO - Agent built successfully with 2 toolsets
+2025-08-14 18:22:17,992 - src.client.mcp_client - INFO - MCP client initialized successfully
+2025-08-14 18:22:17,993 - src.client.mcp_client - INFO - Server status: 2/2 servers connected
+2025-08-14 18:22:17,993 - __main__ - INFO - MCP client initialized
+2025-08-15 16:28:07,598 - src.client.mcp_client - INFO - Shutting down MCP client...
+2025-08-15 16:28:07,602 - src.agent.agent_wrapper - INFO - Shutting down agent and closing toolset connections...

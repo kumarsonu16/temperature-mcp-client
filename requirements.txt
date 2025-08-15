@@ -1,0 +1,19 @@
+# AI and MCP Core
+google-adk
+google-cloud-aiplatform
+google-generativeai
+mcp
+fastmcp
+# Data and Validation
+pydantic
+# CLI and UI
+click
+rich
+# Environment and Configuration
+python-dotenv
+# Async Support
+asyncio-mqtt
+# Development (optional)
+pytest
+black
+flake8
